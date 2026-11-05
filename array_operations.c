@@ -18,7 +18,6 @@ int main() {
 
     if(arr == NULL) return 1;
 
-    // Create array
     printf("Enter 5 elements:\n");
     for(i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
@@ -27,7 +26,6 @@ int main() {
     printf("Original array: ");
     printArray(arr, size);
 
-    // Insert value
     printf("Enter value and position to insert: ");
     scanf("%d %d", &value, &position);
 
@@ -42,7 +40,6 @@ int main() {
     printf("After insertion: ");
     printArray(arr, size);
 
-    // Delete value
     printf("Enter value to delete: ");
     scanf("%d", &value);
 
